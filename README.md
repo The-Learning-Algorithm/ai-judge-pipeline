@@ -17,7 +17,7 @@ The pipeline consists of four main scripts:
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/The-Learning-Algorithm/ai-judge-pipeline?tab=readme-ov-file
 cd ai-judge-pipeline
 ```
 
