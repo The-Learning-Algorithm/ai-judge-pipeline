@@ -12,10 +12,10 @@ gemini_client      = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 # 2) PRICING TUPLES: (input $/1M, output $/1M, words_per_token)
 pricing = {
-    # "o4-mini":                     (1.10,  4.40, 0.80),
-    # "chatgpt-4o-latest":                    (5.00, 15.00, 0.75),
-    # "o3-2025-04-16":               (10.00, 40.00, 0.75),
-    # "gemini-2.5-pro-preview-05-06": (1.25, 10.00, 0.70),
+    "o4-mini":                     (1.10,  4.40, 0.80),
+    "chatgpt-4o-latest":                    (5.00, 15.00, 0.75),
+    "o3-2025-04-16":               (10.00, 40.00, 0.75),
+    "gemini-2.5-pro-preview-05-06": (1.25, 10.00, 0.70),
     "gemini-2.5-flash-preview-05-20":            (0.15, 3.50, 0.70),
 }
 
