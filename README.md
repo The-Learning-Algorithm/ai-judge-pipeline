@@ -112,8 +112,9 @@ ai-judge-pipeline/
 
 ## License
 
-[Your chosen license]
+MIT License
 
 ## Contact
-
-[Your contact information] 
+Amir Tadrisi 
+Site: [The Learning Algorithm](https://thelearningalgorithm.ai)
+Email: [amirtds@gmail.com](mailto:amirtds@gmail.com)
