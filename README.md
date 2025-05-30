@@ -21,12 +21,24 @@ git clone [repository-url]
 cd ai-judge-pipeline
 ```
 
-2. Install dependencies:
+2. Create and activate a virtual environment:
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Set up environment variables:
+4. Set up environment variables:
 ```bash
 # Create a .env file with your API keys
 OPENAI_API_KEY=your_openai_api_key
